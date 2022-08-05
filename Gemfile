@@ -15,6 +15,10 @@ gem "puma", "~> 5.0"
 # Use Mongo DB for db 
 gem 'mongoid'
 
+# Devise
+
+gem 'devise'
+
 # Bundle audit
 gem 'bundler-audit', require: false
 gem 'gem-patch', require: false
