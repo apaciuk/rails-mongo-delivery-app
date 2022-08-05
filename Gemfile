@@ -18,6 +18,7 @@ gem 'puma', '~> 5.0'
 # Use Mongo DB for db
 gem 'mongoid'
 gem 'mongo_mapper'
+gem 'mongo_session_store-rails4'
 
 # Devise auth
 gem 'devise'

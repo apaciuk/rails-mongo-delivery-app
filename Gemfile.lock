@@ -183,6 +183,8 @@ GEM
       mongo (~> 2.0)
       plucky (~> 0.8.0)
       rexml
+    mongo_session_store-rails4 (6.0.0)
+      actionpack (>= 3.1)
     mongoid (8.0.2)
       activemodel (>= 5.1, < 7.1, != 7.0.0)
       mongo (>= 2.18.0, < 3.0.0)
@@ -334,6 +336,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mongo_mapper
+  mongo_session_store-rails4
   mongoid
   puma (~> 5.0)
   purecss
