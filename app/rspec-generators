@@ -1,0 +1,15 @@
+ rspec:channel
+  rspec:controller
+  rspec:feature
+  rspec:generator
+  rspec:helper
+  rspec:install
+  rspec:integration
+  rspec:job
+  rspec:mailbox
+  rspec:mailer
+  rspec:model
+  rspec:request
+  rspec:scaffold
+  rspec:system
+  rspec:view
