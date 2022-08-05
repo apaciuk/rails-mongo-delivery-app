@@ -14,9 +14,9 @@ gem "puma", "~> 5.0"
 
 # Use Mongo DB for db 
 gem 'mongoid'
+gem 'mongo_mapper'
 
-# Devise
-
+# Devise auth
 gem 'devise'
 
 # Bundle audit
