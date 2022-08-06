@@ -15,11 +15,11 @@ gem 'sprockets-rails'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 
-# Use Mongo DB for db
-gem 'mongoid'
-gem 'mongo_mapper'
-gem 'mongo_session_store-rails4'
+# Use Mongo DB for db [https://github.com/mongoid] [https://github.com/mongoid/mongo_session_store]
 
+gem 'mongoid'
+# gem 'mongo_mapper'
+gem 'mongo_session_store'
 # Devise auth
 gem 'devise'
 
@@ -57,7 +57,7 @@ gem 'bootsnap', require: false
 # Use Sass to process CSS
 gem 'sassc-rails'
 
-# Testing & debugging with RSpec & Capybara, Byebug
+# Testing & debugging with RSpec & Capybara, Byebug [https://github.com/mongoid/mongoid-rspec]
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara'
@@ -68,4 +68,5 @@ group :development, :test do
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
     gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'main'
   end
+  gem 'mongoid-rspec'
 end

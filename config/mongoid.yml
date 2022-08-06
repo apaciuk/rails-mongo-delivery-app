@@ -15,6 +15,7 @@ development:
       hosts:
         - localhost:27017
       options:
+        server_selection_timeout: 1
         # Note that all options listed below are Ruby driver client options (the mongo gem).
         # Please refer to the driver documentation of the version of the mongo gem you are using
         # for the most up-to-date list of options.
@@ -45,7 +46,7 @@ development:
         # :mongodb_cr, :mongodb_x509, and :plain. Note that all authentication
         # mechanisms require username and password, with the exception of :mongodb_x509.
         # Default on mongoDB 3.0 is :scram, default on 2.4 and 2.6 is :plain.
-        auth_mech: :scram
+        auth_mech: :plain
 
         # The database or source to authenticate the user against.
         # (default: the database specified above or admin)
